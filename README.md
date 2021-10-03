@@ -40,8 +40,16 @@ Create a summary statistics table to show:
 - The suspension coil’s PSI continuous variable across all manufacturing lots
 - The following PSI metrics for each lot: mean, median, variance, and standard deviation.
 
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+The overall metrics for the Total Summary Data frame shows that the suspension coils lots are within the specifications by not exceeding the 100 pounds per square inch threshold.
+
 <p align="center"><img class="centerImage" src="https://github.com/dalejandri/MechaCar_Statistical_Analysis/blob/main/Resources/4.PNG" /></p>
 <p align="center">total_summary dataframe</p>
+
+
+However, looking at individual lots we can observe that lot 3's variance is ~170.286 which exceeds 100 PSI, therefore out of range of MechaCar specifications.
+Further analysis within lot 3 needs to be performed to discriminate manufacturer, production dates & outliers probably caused by poor quality control.
 
 <p align="center"><img class="centerImage" src="https://github.com/dalejandri/MechaCar_Statistical_Analysis/blob/main/Resources/5.PNG" /></p>
 <p align="center">lot_summary dataframe</p>
