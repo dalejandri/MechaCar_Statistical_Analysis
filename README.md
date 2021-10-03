@@ -34,7 +34,11 @@ However only two of the variables proved to be non-random, this probably is just
 
 ## Deliverable 2: Create Visualizations for the Trip Analysis
 
+The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. 
+Create a summary statistics table to show:
 
+- The suspension coil’s PSI continuous variable across all manufacturing lots
+- The following PSI metrics for each lot: mean, median, variance, and standard deviation.
 
 <p align="center"><img class="centerImage" src="https://github.com/dalejandri/MechaCar_Statistical_Analysis/blob/main/Resources/4.PNG" /></p>
 <p align="center">total_summary dataframe</p>
