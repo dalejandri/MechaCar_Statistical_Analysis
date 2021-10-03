@@ -11,7 +11,9 @@ The MechaCar_mpg.csv dataset contains mpg test results for 50 prototype MechaCar
 ## Linear Regression to Predict MPG
 
 
+<p align="center">Multiple Linear Regression Model</p>
 
+<p align="center"><img class="centerImage" src="https://github.com/dalejandri/MechaCar_Statistical_Analysis/blob/main/Resources/2.PNG" width="500" height="300" alt="Multiple Linear Regression Model" /></p>
 
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
