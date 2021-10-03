@@ -25,7 +25,7 @@ The intercept is statistically significant, meaning that there might be other va
 
 - Is the slope of the linear model considered to be zero? Why or why not?
 
-The slope of the linear model cannot be considered zero due to resulted the p-value of 5.35e-11. Therefore we can reject the null hypothesis.
+The slope of the linear model cannot be considered zero due to resulted the p-value of 5.35e-11. Therefore we can reject the null hypothesis (meaning there is a definite, consequential relationship between the variables)
 
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
