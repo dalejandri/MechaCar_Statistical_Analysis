@@ -32,4 +32,12 @@ The slope of the linear model cannot be considered zero due to resulted the p-va
 Yes, this linear model shows a Multiple R-squared of 0.7149, which is around of 71% percent explained truthfully by the variables/coefficients, therefore is a good model to predict MPG consumption of the prototypes effectively. 
 However only two of the variables proved to be non-random, this probably is just not be good enough and there might be other variables that we should take into account to obtain a more successful prediction.
 
+## Deliverable 2: Create Visualizations for the Trip Analysis
 
+
+
+<p align="center"><img class="centerImage" src="https://github.com/dalejandri/MechaCar_Statistical_Analysis/blob/main/Resources/4.PNG" /></p>
+<p align="center">total_summary dataframe</p>
+
+<p align="center"><img class="centerImage" src="https://github.com/dalejandri/MechaCar_Statistical_Analysis/blob/main/Resources/5.PNG" /></p>
+<p align="center">lot_summary dataframe</p>
