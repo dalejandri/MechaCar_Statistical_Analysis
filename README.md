@@ -25,4 +25,11 @@ The intercept is statistically significant, meaning that there might be other va
 
 - Is the slope of the linear model considered to be zero? Why or why not?
 
+The slope of the linear model cannot be considered zero due to resulted the p-value of 5.35e-11. Therefore we can reject the null hypothesis.
+
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+
+Yes, this linear model shows a Multiple R-squared of 0.7149, which is around of 71% percent explained truthfully by the variables/coefficients, therefore is a good model to predict MPG consumption of the prototypes effectively. 
+However only two of the variables proved to be non-random, this probably is just not be good enough and there might be other variables that we should take into account to obtain a more successful prediction.
+
+
