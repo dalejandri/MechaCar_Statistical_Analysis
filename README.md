@@ -16,6 +16,13 @@ The MechaCar_mpg.csv dataset contains mpg test results for 50 prototype MechaCar
 
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
+vehicle_length and ground_clearance have a significant impact on MPG consumption, they are non-random variables. This assumption is based on the their p-values that statistically is less that the significance level of 0.05 (2.60e-12 and 5.21e-08 respectively).
+
+<p align="center"><img class="centerImage" src="https://github.com/dalejandri/MechaCar_Statistical_Analysis/blob/main/Resources/3.PNG" /></p>
+
+The intercept is statistically significant, meaning that there might be other variables not included in our regression that have impact on the MPG consumption.
+
+
 - Is the slope of the linear model considered to be zero? Why or why not?
 
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
