@@ -58,7 +58,7 @@ Further analysis within lot 3 needs to be performed to discriminate manufacturer
 
 Perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
 
-t-tests display the significance level to determine wheter we can or cannot we reject the null hypothesis, in this case that the suspension coil mean equals 1500 PSI for the manufacturing lots as a whole and/or individually
+t-tests display the significance level to determine wheter we can or cannot we reject the null hypothesis, in this case that the suspension coil mean equals 1500 PSI for the manufacturing lots as a whole and/or individually.
 
 <p align="center"><img class="centerImage" src="https://github.com/dalejandri/MechaCar_Statistical_Analysis/blob/main/Resources/6.PNG" /></p>
 <p align="center">P-Value for all lots is 0.06 which is above our significance level of 0.05 - Do not reject null hypothesis</p>
@@ -81,6 +81,21 @@ t-tests display the significance level to determine wheter we can or cannot we r
 Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 
 - What metric or metrics are you going to test?
+
+Vehicle Safety Ratings. Nowadays, vehicle safety is one of the key factors that customers that in the market when considering acquiring a vehicle.
+We can help MechaCar prototypes to produce Safety Ratings to help their consumers to make smart decisions about safety when purchasing a vehicle.
+
+
 - What is the null hypothesis or alternative hypothesis?
+
+Null hypothesis: MechaCar prototypes perform just as equal of have an inferior performance as the competition in Vehicle Safety Ratings.
+Alternate hypothesis: MechaCar prototypes outperform the competition in Vehicle Safety Ratings.
+
+
 - What statistical test would you use to test the hypothesis? And why?
+
+NHTSA's Safety Ratings for example measure safety ratings by OVERALL RATING, FRONTAL CRASH, SIDE CRASH and ROLLOVER therefore we would use Analysis of Variance (ANOVA) to measure statistical differences between the means of three or more independent groups.
+
 - What data is needed to run the statistical test?
+
+We would need datasets with detailed information for example from the National Highway Traffic Safety Administration (NHTSA) with the requiered Vehicle Safety Ratings to measure against MechaCar prototypes measurements.
