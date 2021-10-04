@@ -60,20 +60,21 @@ Perform t-tests to determine if all manufacturing lots and each lot individually
 
 t-tests display the significance level to determine wheter we can or cannot we reject the null hypothesis, in this case that the suspension coil mean equals 1500 PSI for the manufacturing lots as a whole and/or individually.
 
+#### P-Value for all lots:
 <p align="center"><img class="centerImage" src="https://github.com/dalejandri/MechaCar_Statistical_Analysis/blob/main/Resources/6.PNG" /></p>
 <p align="center">P-Value for all lots is 0.06 which is above our significance level of 0.05 - Do not reject null hypothesis</p>
 
+#### t-test for manufacturing lot 1:
 <p align="center"><img class="centerImage" src="https://github.com/dalejandri/MechaCar_Statistical_Analysis/blob/main/Resources/7.PNG" /></p>
 <p align="center">t-test for manufacturing lot 1 with a p-value of 1 - Do not reject null hypothesis</p>
 
-
+#### t-test for manufacturing lot 2:
 <p align="center"><img class="centerImage" src="https://github.com/dalejandri/MechaCar_Statistical_Analysis/blob/main/Resources/8.PNG" /></p>
 <p align="center">t-test for manufacturing lot 2 with a p-value of 0.6072 - Do not reject null hypothesis</p>
 
-
+#### t-test for manufacturing lot 3:
 <p align="center"><img class="centerImage" src="https://github.com/dalejandri/MechaCar_Statistical_Analysis/blob/main/Resources/9.PNG" /></p>
 <p align="center">t-test for manufacturing lot 3 with a p-value of 0.04168 - Reject null hypothesis</p>
-
 
 ## Deliverable 4: Design a Study Comparing the MechaCar to the Competition
 
